@@ -5,7 +5,7 @@ const port = 3001;
 app.set('view engine', 'pug');
 
 app.get('/', (req, res) => {
-    res.render('./waiting.pug')
+    res.render('waiting.pug')
 });
 
 app.listen(port, () => {
